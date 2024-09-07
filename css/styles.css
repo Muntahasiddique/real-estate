@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: #0B132B;
+}
+
+.major-div {
+    background-color: aquamarine;
+}
+
+.first-div {
+    display: flex;
+}
+
+.find-home {
+    width: 50%;
+      /* Centers content horizontally */
+      padding: 147px 68px 0px 63px;
+    }
+
+.carousel-div {
+  width: 50%;
+    display: flex;
+    height: 100%;
+  
+}
+
+.find-home-h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Perfect-Home {
+    color: rgb(43, 139, 43);
+    font-weight: 700;
+}
+
+.pric-btn {
+    padding: 12px 34px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #1CB6F3;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.find-home-p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    max-width: 80%;  /* Optional: limits the paragraph width */
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.carousel-btn {
+    background-color: black;
+    position: absolute;
+    top: 50%;  /* Positioning the buttons vertically in the center */
+    left: 50%; /* Positioning the buttons horizontally in the center */
+    transform: translate(-50%, -50%); /* Adjusts for the natural size of the button icons */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 2;
+}
+.carousel-btn i {
+    font-size: xxx-large;
+    color: white;          /* Color of the icons */
+    background-color: black;
+    border-radius: 50%;    /* Optional: make the buttons circular */
+    padding: 10px;         /* Adds padding around the icons */
+    cursor: pointer;
+}
+
+.carousel-btn i:hover {
+    background-color: gray; /* Optional: Changes color on hover */
+}
+
+.logo{
+    display: flex;
+}
+.bg-body-tertiary{
+    margin: 34px 34px 0px 34px;
+}
+.nav-link img{
+    border: 1px dashed rgb(43, 139, 43); /* Black border */
+    border-radius: 50%; /* Makes the border circular */
+    padding: 10px; /* Adds some space inside the border */
+    width: 50px; /* Sets the width of the image */
+    height: 50px; /* Sets the height of the image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo{
+    font-size: 37px; /* Larger font size to make it a heading */
+    font-weight: 900; /* Extra bold */
+    letter-spacing: 0px; /* Space out the letters for emphasis */
+    color: #000; /* You can change this to a different color if needed */
+    transition: color 0.3s ease, transform 0.3s ease;
+    color: rgb(43, 139, 43);
+}
+.Makkan-heading{
+    padding: 5px 1px 0px 17px;
+}
+.me-auto{
+    margin-left: auto !important;
+}
+.me-auto{
+    margin-right: 0px !important;
+}
+ .ms-3{
+    padding: 6px;
+    border-radius: 7px;
+    background-color: rgb(43, 139, 43);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(43, 139, 43);
+
+}
+.nav-item{
+    font-size: 19px;
+    font-weight: 700;
+    color: #000;
+}
+
